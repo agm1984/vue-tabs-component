@@ -973,7 +973,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       attrs: {
         "role": "presentation"
       }
-    }, [_vm._v("\n            TEST\n            "), _c('a', {
+    }, [_c('a', {
       staticClass: "tabs-component-tab-a",
       attrs: {
         "aria-controls": tab.hash,
@@ -992,7 +992,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     })])
   })), _vm._v(" "), _c('div', {
     staticClass: "tabs-component-panels"
-  }, [_vm._t("default")], 2)])
+  }, [_vm._v("\n        PANEL\n        "), _vm._t("default")], 2)])
 },staticRenderFns: []}
 
 /***/ })
