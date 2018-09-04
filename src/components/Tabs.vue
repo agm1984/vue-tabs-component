@@ -9,6 +9,7 @@
                 role="presentation"
                 v-show="tab.isVisible"
             >
+                TEST
                 <a v-html="tab.header"
                    :aria-controls="tab.hash"
                    :aria-selected="tab.isActive"
